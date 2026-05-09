@@ -1,0 +1,148 @@
+
+.custom-container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%; /* Center the container */
+}
+.color-picker > fieldset {
+  border: 0;
+  display: flex;
+  gap: 1rem;
+  width: fit-content;
+  padding: 0.2rem 0.2rem;
+  margin-inline: auto;
+  border-radius: 1rem 1rem 1rem 1rem ;
+  }
+  [type="radio"] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  [type="radio"] + img {
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-position: 0px;
+}
+
+  .color-picker input[type="radio"] + img{
+    cursor: pointer;
+    border: 0px solid var(--radio-color, currentColor);
+  }
+
+  .color-picker input[type="radio"]:checked + img + label {
+    outline: 2px solid #f00;
+  } 
+
+  .custom-toggler {
+    background-color: transparent;
+    border: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    display: none;
+    margin:0 auto; /* Hide by default */
+  }
+
+  .custom-toggler:focus {
+    outline: none;
+  }
+
+  /* Custom styles for the toggle icon */
+  .custom-icon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .custom-toggler.collapsed .custom-icon {
+    background-color: #fff; /* Change to your desired color */
+  }
+  .custom-drop-green {
+    color: #f8f9fa;
+    background-color:#198754;
+  }
+  .custom-drop-green:hover {
+    color: #198754;
+    background-color: #f8f9fa;
+  }
+  .custom-drop-red {
+    color: #f8f9fa;
+    background-color: #dc3545;;
+  }
+  .custom-drop-red:hover {
+    color: #dc3545;
+    background-color:#f8f9fa;
+  }
+
+  /* Media query to show the button below 768px */
+  @media (max-width: 767.98px) {
+    .custom-toggler {
+      display: block;
+    }
+  }
+
+  .custom-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%; /* Center the container */
+  }
+
+  .logotext {
+    font-family: 'Teko', sans-serif;
+}
+.middletext{
+  font-family: 'Comfortaa', sans-serif;
+}
+  /* :root:has(#light:checked) {
+    --bs-body-color: var(--bs-dark);
+    --bs-body-color-rgb: #{to-rgb($white)};
+    --bs-body-bg: var(--bs-light);
+    --bs-body-bg-rgb: #{to-rgb($blue)};
+    --bs-tertiary-bg: #{$blue-600};
+
+    --bs-btn-bg: #{mix($gray-600, $blue-400, .5)};
+      --bs-btn-border-color: #{rgba($white, .25)};
+      --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, .5), 5%)};
+      --bs-btn-hover-border-color: #{rgba($white, .25)};
+      --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, .5), 10%)};
+      --bs-btn-active-border-color: #{rgba($white, .5)};
+      --bs-btn-focus-border-color: #{rgba($white, .5)};
+      --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
+  }
+   */
+  /* :root:has(#dark:checked) {
+    --bs-body-color: var(--bs-white);
+    --bs-body-color-rgb: #{to-rgb($white)};
+    --bs-body-bg: var(--bs-dark);
+    --bs-body-bg-rgb: #{to-rgb($blue)};
+    --bs-tertiary-bg: #{$blue-600};
+
+    --bs-btn-bg: #{mix($gray-600, $blue-400, .5)};
+      --bs-btn-border-color: #{rgba($white, .25)};
+      --bs-btn-hover-bg: #{darken(mix($gray-600, $blue-400, .5), 5%)};
+      --bs-btn-hover-border-color: #{rgba($white, .25)};
+      --bs-btn-active-bg: #{darken(mix($gray-600, $blue-400, .5), 10%)};
+      --bs-btn-active-border-color: #{rgba($white, .5)};
+      --bs-btn-focus-border-color: #{rgba($white, .5)};
+      --bs-btn-focus-box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .2);
+  }
+  */
+
+  /* arrows*/
+
+  .rotateOn{-webkit-transform: rotate(90deg)!important;
+    -moz-transform: rotate(180deg)!important;
+    -ms-transform: rotate(180deg)!important;
+    transform: rotate(180deg)!important;
+   -webkit-transition: all 0.4s ease-in;
+   -moz-transition: all 0.4s ease-in;
+   -o-transition: all 0.4s ease-in;
+   transition: all 0.4s ease-in;
+}
