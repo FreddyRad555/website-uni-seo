@@ -1,0 +1,213 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.scss">
+    
+</head>
+<body>
+    <header>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/image-chg.js"></script>
+    <div class="container">
+        <div class="container-fluid custom-container">
+          <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-2 logotext"><a href="index.html" style="color: inherit; text-decoration: none;">NT Town</a></h1>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="custom-container">
+          <div class="row">
+            <div class="col-12 text-center">
+                <nav class="navbar navbar-expand-md">
+                    <button class="custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <div id="arrowsBlock">
+                      <img src='images/icons/arrow light.png' width="45vh" id="Arrow">
+                    </div>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav mx-auto middletext">
+                      <li class="nav-item" id="menuBlock">
+                        <a class="nav-link text-info" href="blocks.html">
+                          <h5><img src="images/icons/block light.png" width="35vh" alt="lightBlock" id="menuBlockImage">Будинки</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item dropdown" id="menuDoor">
+                        <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <h5><img src="images/icons/door light.png" width="35vh" alt="lightDoor" id="menuDoorImage">Варіації квартир</h5>
+                        </a>
+                        <ul class="dropdown-menu bg-success">
+                          <li><a class="dropdown-item custom-drop-green" href="threek.html">Трикімнатні</a></li>
+                          <li><a class="dropdown-item custom-drop-green" href="twok.html">Двокімнатні</a></li>
+                          <li><a class="dropdown-item custom-drop-green" href="studio.html">Студії</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown" id="menuLine">
+                        <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                          <h5><img src="images/icons/line light.png" width="35vh" alt="lightLine" id="menuLineImage">Черга</h5>
+                        </a>
+                        <ul class="dropdown-menu bg-danger">
+                          <li><a class="dropdown-item custom-drop-red" href="intoqueue.html">Записатись в чергу</a></li>
+                          <li><a class="dropdown-item custom-drop-red" href="progress.html">Прогрес</a></li>
+                          <li><a class="dropdown-item custom-drop-red" href="plans.html">Плани на будівництво</a></li>
+                          <li><a class="dropdown-item custom-drop-red" href="others.html">Інше</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item" id="menuMsg">
+                        <a class="nav-link text-primary" href="contacts.html">
+                          <h5><img src="images/icons/msg light.png" width="35vh" alt="lightMsg" id="menuMsgImage">Контакти</h5>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="col-12">
+                          <div class="color-picker">
+                            <form class="form-inline" action="">
+                              <fieldset>
+                                <label for="light" class="sr-only">
+                                  <input type="radio" id="light" name="theme" data-bs-theme-value="light" aria-pressed="false">
+                                  <img src="images/icons/light light.png" width="35vh" id="lightImage">
+                                </label>
+                                <label for="dark"  class="sr-only">
+                                  <input type="radio" id="dark" name="theme" data-bs-theme-value="dark" aria-pressed="false">
+                                  <img src="images/icons/dark light.png"  width="35vh" id="darkImage">
+                                </label>
+                              </fieldset>
+                            </form>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  <content>
+    <div class="container mt-5">
+        <div class="row mt-5 text-center"><h1 class="middletext">Бажаєте записатись до черги ? Тепер ви можете це зробити онлайн. Відправте усі дані, які потрібні, і наші працівники їх оброблять :)</h1></div>
+        <div class="row mt-5 text-center"><h5 class="middletext">Підроблені документи не підійдуть для реєстрації, а також можуть мати наслідки у вигляді справи з правоохоронними огранами!*</h5></div>
+      </div>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Електронна пошта:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введіть ваш e-mail">
+              <small id="emailHelp" class="form-text text-muted">Ваші дані не потраплять нідокого, окрім нас</small>
+            </div>
+            <div class="form-group mt-2">
+                <label for="inputAddress">Прізвище</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Петренко">
+              </div>
+              <div class="form-group mt-2">
+                <label for="inputAddress">Ім'я</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Антон">
+              </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Оберіть кількість кімнат:</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Три</option>
+                  <option>Дві</option>
+                  <option>Студія</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Оберіть будинок:</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Кутовий (буд. 1)</option>
+                  <option>Квадрат (буд. 2)</option>
+                  <option>Прямий (буд.3)</option>
+                </select>
+              </div>
+              <div class="form-group mt-2">
+                <label for="exampleFormControlFile1">Додайте файли ваших документів</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+              <div class="form-group mt-2">
+                <label for="inputAddress">Адреса проживання</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Шевченка, 1">
+              </div>
+              <div class="form-group mt-2">
+                <label for="inputAddress2">Квартира/офіс</label>зкшьу
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">Місто</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">Область</label>
+                  <select id="inputState" class="form-control">
+                    <option>АР Крим</option>
+                    <option>Вінницька</option>
+                    <option>Волинська</option>
+                    <option>Дніпропетровська</option>
+                    <option>Донецька</option>
+                    <option>Житомирська</option>
+                    <option>Закарпатська</option>
+                    <option>Запорізька</option>
+                    <option>Івано-Франківська</option>
+                    <option>Київська</option>
+                    <option>м.Київ</option>
+                    <option>Кіровоградська</option>
+                    <option>Луганська</option>
+                    <option>Львівська</option>
+                    <option>Миколаївська</option>
+                    <option>Одеська</option>
+                    <option>Полтавська</option>
+                    <option>Рівненська</option>
+                    <option>Сумська</option>
+                    <option>Тернопільська</option>
+                    <option>Харківська</option>
+                    <option>Херсонська</option>
+                    <option>Хмельницька</option>
+                    <option>Черкаська</option>
+                    <option>Чернівецька</option>
+                    <option>Чернігівська</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2 mt-3">
+                  <label for="inputZip">Поштовий індекс</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+          </form>
+          <button type="submit" class="btn btn-primary mt-3">Надіслати</button>
+    </div>
+  </content>
+
+  <div class="container">
+    <div class="row">
+        <div class="col">
+                <div class="container">
+                    <footer class="py-3 my-4">
+                      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item footInsta"><a href="https://www.instagram.com/" class="nav-link px-2 navbar-brand"><img src="images/icons/insta light.png" width="35vh" alt="lightBlock" id="footInstaIcon"></a></li>
+                        <li class="nav-item footFb"><a href="https://www.facebook.com/" class="nav-link px-2 navbar-brand"><img src="images/icons/fb light.png" width="35vh" alt="lightFb" id="footFbIcon"></a></li>
+                        <li class="nav-item footLinked"><a href="https://www.linkedin.com/" class="nav-link px-2 navbar-brand"><img src="images/icons/Linked light.png" width="35vh" alt="lightLinked" id="footLinkedIcon"></a></li>
+                        <li class="nav-item footReddit"><a href="https://www.reddit.com/" class="nav-link px-2 navbar-brand"><img src="images/icons/Reddit light.png" width="35vh" alt="lightReddit" id="footRedditIcon"></a></li>
+                      </ul>
+                      <p class="text-center">© 2023 NT Town, Inc</p>
+                    </footer>
+              </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
